@@ -78,13 +78,54 @@
     </div>
    </div>
  </section>
-    <div class="row justify-content-center">
+    <!-- <div class="row justify-content-center">
           <div class="col-8">
               <div class="embed-responsive embed-responsive-16by9">
                   <iframe  width="560" height="315" src="https://www.youtube.com/embed/HmQuaPOJmQk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
           </div>
-      </div>
+	  </div> -->
+	  <div id="slideshow1" class="carousel slide" data-ride="carousel">
+		<!-- Indicadores -->
+		<ol class="carousel-indicators">
+			<li data-target="#slideshow1" data-slide-to="0" class="active"></li>
+			<li data-target="#slideshow1" data-slide-to="1"></li>
+			<li data-target="#slideshow1" data-slide-to="2"></li>
+		</ol>
+
+		<!-- Contenedor de Slides -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="http://lorempixel.com/1200/400/sports/1" alt="">
+				<div class="carousel-caption">
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="http://lorempixel.com/1200/400/sports/2" alt="">
+				<div class="carousel-caption">
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="http://lorempixel.com/1200/400/sports/3" alt="">
+				<div class="carousel-caption">
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Controles -->
+		<a href="#slideshow1" class="left carousel-control" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		</a>
+
+		<a href="#slideshow1" class="right carousel-control" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		</a>
+	</div>
 
     <div id="gtco-subscribe">
 		<div class="gtco-container">
@@ -173,8 +214,11 @@
 					</p>
 				</div>
 			</div>
-
 		</div>
 	</footer>
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>
